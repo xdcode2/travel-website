@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Santorini",
+        "desc": "Santorini's charming village, enchants with its blue-domed churches, whitewashed buildings, and legendary sunsets. A romantic destination that leaves lasting memories.",
+        "image": "./assets/images/Dest-01.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Maldives",
+        "desc": "A paradise of turquoise waters and pristine white sand beaches. A tropical haven for relaxation and underwater exploration.",
+        "image": "./assets/images/Dest-02.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Petra",
+        "desc": "A mesmerizing blend of history and breathtaking architecture. Explore the secrets of this ancient Nabatean wonder hidden within the desert canyons.",
+        "image": "./assets/images/Dest-03.jpg"
+    }
+]

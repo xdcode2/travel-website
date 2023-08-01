@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+    /* ============= COLORS ============= */
+    --white-100: #ffffff;
+    --darkGray-90: #231f20;
+    --blue-80: #007bff;
+    --blue-75: #3482ff;
+    --blue-70: #4285f4;
+    --blue-60: #80b2e6;
+    --blue-43: #77addb;
+    --blue-60-opcty-70: rgba(128, 177, 230, 0.7);
+    --skyBlue-100: #ecf8ff;
+    --body-bg: var(--skyBlue-100);
+    --text-dark: var(--darkGray-90);
+    --text-light: var(--white-100);
+    --btn-color: var(--blue-80);
+    --btn-hover-color: var(--blue-75);
+    --field-color: var(--blue-60);
+    --field-focus-color: var(--blue-80);
+
+    /* ============= PADDING ============= */
+    --padding-1: 1rem;
+    --padding-2: 2rem;
+    --padding-3: 3rem;
+
+    /* ============= MARGIN ============= */
+    --margin-1: var(--padding-1);
+    --margin-2: var(--padding-2);
+    --margin-3: var(--padding-3);
+
+    /* ============= BORDER RADIUS ============= */
+    --border-5: 5px;
+    --border-10: 10px;
+    --border-rounded: 100vmax;
+    --border-circle: 50%;
+
+    /* ============= BOX SHADOW ============= */
+    --shadow-gray-25: rgba(80, 80, 80, 0.25);
+    --shadow-black-10: rgba(0, 0, 0, 0.1);
+    --shadow-black-20: rgba(0, 0, 0, 0.2);
+    --shadow-black-30: rgba(0, 0, 0, 0.3);
+    --shadow-primary: 0px 10px 10px var(--shadow-gray-25);
+
+    /* ============= DURATIONS ============= */
+    --default-duration: 300ms;
+    --fast-duration: 1500ms;
+    --slowest-duration: 8000ms;
+
+    /* ============= FONT FAMILY ============= */
+    --font-family-montserrat: "Montserrat", sans-serif;
+
+    /* ============= FONT SIZE ============= */
+    --font-size-1: 1rem;
+    --font-size-1-5: 1.5rem;
+    --font-size-2: 2rem;
+    --font-size-2-5: 2.5rem;
+    --font-size-3: 3rem;
+
+    /* ============= FONT WEIGHT ============= */
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-sime-bold: 600;
+    --font-bold: 700;
+
+    /* =============  HEIGHTS & WIDTHS =============*/
+    --full-view-height: 100vh;
+    --full-view-width: 100%;
+    --header-height: 100px;
+    --control-height: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--blue-60-opcty-70);
+    border-radius: var(--border-10);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img:not(.header__logo img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    user-select: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: capitalize;
+}
+
+header,
+section,
+footer {
+    width: var(--full-view-width);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.primary-btn {
+    border: none;
+    outline: none;
+    border-radius: var(--border-5);
+    background-color: var(--btn-color);
+    width: fit-content;
+    height: fit-content;
+    font-size: var(--font-size-1);
+    font-weight: var(--font-sime-bold);
+    color: var(--white-100);
+    cursor: pointer;
+    transition: background var(--default-duration) ease;
+}
+
+.cta-btn {
+    height: var(--control-height);
+    padding: 0 var(--padding-2);
+}
+
+.primary-btn:hover {
+    background-color: var(--btn-hover-color);
+}

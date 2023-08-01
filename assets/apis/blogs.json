@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Lost in Santorini: Exploring the Enchanting Aegean",
+        "image": "./assets/images/Blog-01.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Island Escapade: Uncovering the Beauty of Bali",
+        "image": "./assets/images/Blog-02.jpg"
+    },
+    {
+        "id": 3,
+        "title": "A Taste of Paradise: Culinary Delights in Thailand",
+        "image": "./assets/images/Blog-03.jpg"
+    }
+]

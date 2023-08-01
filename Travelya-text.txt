@@ -1,0 +1,114 @@
+<-- ============= FOR STATIC SECTION ============= -->
+
+<-- ============= Home Section ============= -->
+.Home
+  .home__text 
+     .heading
+	"Embark on Unforgettable Adventures"
+     .text
+	"Are you ready to explore the world's most captivating destinations? Travelya is your ultimate travel companion,
+	 offering a gateway to a world of enchanting experiences and breathtaking landscapes."
+
+  .home__text 
+     .heading
+	"Discover New Horizons"
+     .text
+	"From the bustling streets of vibrant cities to the tranquil shores of exotic islands,
+	 our travel guides will lead you to the hidden gems and must-visit landmarks that await your discovery."
+
+  .home__text 
+     .heading
+	"Inspiring Travel Stories"
+     .text
+	"Immerse yourself in captivating travel stories shared by fellow globetrotters.
+	 Let their experiences ignite your wanderlust and inspire your own memorable journey."
+
+ .home__text 
+     .heading
+	"Your Adventure Awaits"
+     .text
+	"Start your journey with Travelya today. Unleash your inner explorer,
+	 and let the world be your playground. Adventure is just a click away."
+
+ .home__text 
+     .heading
+	"Unleash Your Inner Explorer"
+     .text
+	"Let your curiosity roam free and let wanderlust be your guide. Travelya is your gateway to a world of exploration, 
+      where every destination tells a unique story waiting to be discovered."
+
+ .home__text 
+     .heading
+	"Travel Beyond Boundaries"
+     .text
+	"Dare to step beyond the familiar and into a realm of endless possibilities. 
+      Travelya opens the door to extraordinary cultures, scenic marvels, and heartwarming encounters that will leave you forever changed."
+
+ .home__text 
+     .heading
+	"Where Dreams Take Flight"
+     .text
+	"Close your eyes, dream big, and let us turn those dreams into reality. 
+      Travelya invites you to take flight, exploring the world's most breathtaking landscapes and weaving memories that will forever inspire."
+
+ .home__text 
+     .heading
+	"Unlock the Beauty of the World"
+     .text
+	"Step into a world of enchantment and wonder. 
+     Travelya invites you to unlock the beauty of our planet, with every experience crafted to immerse you in the extraordinary."
+
+<-- ============= About Section ============= -->
+
+.About
+    .about__text
+      .heading
+	"Discover the Story Behind Travelya"
+      .text
+	"Every destination has its unique charm, and we are here to ensure you experience it to the fullest. 
+	 Our team of passionate travelers is dedicated to providing you with the most insightful tips, 
+	 practical advice, and heartfelt recommendations to make your journey smooth and unforgettable."
+
+<-- ============= Join Section ============= -->
+
+.Join
+   .join__title
+   "Embark on a Journey of Discovery: Join Now"
+
+
+<-- ============= Footer ============= -->
+
+.footer__col
+    .footer__logo
+	"Travelya"
+    .footer__description
+	"Explore the World with Travelya."
+
+.footer__col
+    .footer__title
+	"Company"
+    .footer__links
+	"Home"
+	"About"
+	"Destinations"
+	"Blog"
+	"Testimonials"
+
+.footer__col
+    .footer__title
+	"Support"
+    .footer__links
+	"Privacy Policy"
+	"Terms of Service"
+	"Feedback"
+
+.footer__col
+    .footer__title
+	"Follow Us"
+    .footer__links
+	"Facebook"
+	"Inestagram"
+	"Twitter"
+
+.footer__copyRight
+    "&copy; 2023 <span>CodingWeb</span> All Rights Reserved"

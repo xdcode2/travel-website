@@ -1,0 +1,49 @@
+@import url(./variabels.css);
+@import url(./swiper.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: var(--font-family-montserrat);
+}
+
+body {
+    background-color: var(--body-bg);
+    background-image: url("../images/topography.svg");
+}
+
+/* ============= START HEADER ============= */
+
+/* ============= END HEADER ============= */
+
+/* ============= START HOME SECTION ============= */
+
+/* ============= END HOME SECTION ============= */
+
+/* ============= START ABOUT SECTION ============= */
+
+/* ============= END ABOUT SECTION ============= */
+
+/* ============= START DESTINATIONS SECTION ============= */
+
+/* ============= END DESTINATIONS SECTION ============= */
+
+/* ============= START BLOG SECTION ============= */
+
+/* ============= END BLOG SECTION ============= */
+
+/* ============= START TESTIMONAILS SECTION ============= */
+
+/* ============= END TESTIMONAILS SECTION ============= */
+
+/* ============= START JOIN SECTION ============= */
+
+/* ============= END JOIN SECTION ============= */
+
+/* ============= START FOOTER ============= */
+
+/* ============= END FOOTER ============= */
+
+/* ============= SCROLL UP ============= */
