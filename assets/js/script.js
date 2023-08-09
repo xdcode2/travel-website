@@ -31,7 +31,6 @@ closeMenuBtn.addEventListener("click", () => {});
 function changeHeaderBg() {}
 
 /* ============== Home Section ============== */
-const homeSwiper = new Swiper();
 
 const thumbnailsSwiper = new Swiper();
 
